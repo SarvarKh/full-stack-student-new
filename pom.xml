@@ -48,6 +48,19 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.2.1</version>
+				<configuration>
+					<container>
+						<ports>
+							<port>8080</port>
+						</ports>
+						<format>OCI</format>
+					</container>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
