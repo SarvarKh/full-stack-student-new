@@ -71,6 +71,7 @@ function App() {
             <StudentDrawerForm
                 showDrawer={showDrawer}
                 setShowDrawer={setShowDrawer}
+                fetchStudents={fetchStudents}
             />
             <Table
                 dataSource={students}
@@ -85,7 +86,7 @@ function App() {
                 pagination={{ pageSize: 50 }}
                 scroll={{ y: 350 }}
                 rowKey={(student) => student.id}
-            />;
+            />
         </>
     }
 
