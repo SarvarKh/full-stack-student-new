@@ -11,12 +11,13 @@
   <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto"/>
 </div>
 
-Project Diagram
+## Project Diagram
 <div align="center">
-  <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto"/>
-  <img src="screenshots/diagram_01.png?raw=true" width="45%" height="auto"/>
-  <img src="screenshots/diagram_02.png?raw=true" width="45%" height="auto"/>
-  <img src="screenshots/diagram_03.png?raw=true" width="45%" height="auto"/>
+## Overall Diagram
+  <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_01.png?raw=true" width="45%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_02.png?raw=true" width="45%" height="auto" style="border-style: solid"/>
+  <img src="screenshots/diagram_03.png?raw=true" width="45%" height="auto" style="border-style: solid"/>
 </div>
 
 ## Features
