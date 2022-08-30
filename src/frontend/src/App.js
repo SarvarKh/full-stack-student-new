@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { getAllStudents } from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty} from 'antd';
+import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
     FileOutlined,
     TeamOutlined,
-    UserOutlined, LoadingOutlined,
+    UserOutlined, LoadingOutlined, PlusOutlined,
 } from '@ant-design/icons';
 
 import './App.css';
@@ -69,7 +69,9 @@ function App() {
             dataSource={students}
             columns={columns}
             bordered
-            title={() => 'Students'}
+            title={() => <Button type="primary" shape="round" icon={<PlusOutlined />} size="small">
+                Add New Student
+            </Button>}
             pagination={{ pageSize: 50 }}
             scroll={{ y: 350 }}
             rowKey={(student) => student.id}
