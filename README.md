@@ -11,6 +11,14 @@
   <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto"/>
 </div>
 
+Project Diagram
+<div align="center">
+  <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto"/>
+  <img src="screenshots/diagram_01.png?raw=true" width="45%" height="auto"/>
+  <img src="screenshots/diagram_02.png?raw=true" width="45%" height="auto"/>
+  <img src="screenshots/diagram_03.png?raw=true" width="45%" height="auto"/>
+</div>
+
 ## Features
 - Add or delete student, and see number of students
 - Validate in front-end, back-end and in db level (DB Constraints)
@@ -55,6 +63,10 @@
 ## Live Demo
 
 [Live Demo Link](http://springbootreactfullstack-env.eba-5sgfjc9s.eu-west-1.elasticbeanstalk.com/)
+
+## Video intro
+
+[YouTube Link]()
 
 
 ## Getting Started
