@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getAllStudents } from "./client";
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button} from 'antd';
+import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Tag, Badge} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -78,11 +78,17 @@ function App() {
                 columns={columns}
                 bordered
                 title={() =>
-                    <Button
-                        onClick={() => setShowDrawer(!showDrawer)}
-                        type="primary" shape="round" icon={<PlusOutlined />} size="small">
-                        Add New Student
-                    </Button>}
+                    <>
+                        <Tag>Number of students</Tag>
+                        <Badge count={students.length} className="site-badge-count-4"/>
+                        <br/><br/>
+                        <Button
+                            onClick={() => setShowDrawer(!showDrawer)}
+                            type="primary" shape="round" icon={<PlusOutlined />} size="small">
+                            Add New Student
+                        </Button>
+                    </>
+                }
                 pagination={{ pageSize: 50 }}
                 scroll={{ y: 350 }}
                 rowKey={(student) => student.id}
