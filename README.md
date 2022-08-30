@@ -1,13 +1,14 @@
 # Student's Log (Full-stack - Spring & React)
 
 > This is demo app called Student's Log to illustrate/practice my knowledge in full cycle of creating full stack app with Spring boot from the scratch. 
-> In this app, you can add, delete or edit student profile. My greetings and gratitude to the amigoscode team for their course where I could learn immerse number of knowledge about Spring boot and many more ([click here](https://amigoscode.com/p/full-stack-spring-boot-react) to find out more).
+> In this app, you can add, delete or edit student profile.
 
 <div align="center">
   <img src="screenshots/01_landing.png?raw=true" width="100%" height="auto"/>
   <img src="screenshots/02_landing.png?raw=true" width="45%" height="auto"/>
   <img src="screenshots/03_landing.png?raw=true" width="45%" height="auto"/>
   <img src="screenshots/04_landing.png?raw=true" width="45%" height="auto"/>
+  <img src="screenshots/diagram.svg?raw=true" width="100%" height="auto"/>
 </div>
 
 ## Features
@@ -101,3 +102,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+My greetings and gratitude to the amigoscode team for their course where I could learn immerse number of knowledge about Spring boot and many more ([click here](https://amigoscode.com/p/full-stack-spring-boot-react) to find out more).
